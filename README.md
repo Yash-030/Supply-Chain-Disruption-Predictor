@@ -36,7 +36,7 @@ Introduction & Initial Training
 Objective: Establish the project infrastructure, introduce team members to essential tools, and collect initial data for training models.
 Tasks:
 1.	Set up the technical environment for global data monitoring, including integrations with news and data sources.
-2.	Train team members on using large language models (LLMs) such as OpenAI GPT and Meta LLaMA for analyzing supply chain data.
+2.	Train on using large language models (LLMs) such as OpenAI GPT and Meta LLaMA for analyzing supply chain data.
 3.	Begin gathering and processing initial data from sources like news articles, supplier updates, and transportation trends.
 ________________________________________
-This milestone lays the foundation for the system by setting up infrastructure, equipping the team with the necessary skills, and initiating data collection. Let me know if you'd like further refinements or additional milestones!
+This milestone lays the foundation for the system by setting up infrastructure and initiating data collection.

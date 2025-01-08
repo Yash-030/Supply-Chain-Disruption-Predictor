@@ -3,7 +3,7 @@ from transformers import pipeline
 import json
 
 # OpenAI API key
-OPENAI_API_KEY = "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"  # Replace with your actual OpenAI API key
+OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
 
 # Initializing sentiment analysis pipeline
@@ -28,7 +28,7 @@ def analyze_article(title, body):
     # Risk Analysis with OpenAI
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are an AI that analyzes supply chain risks."},
                 {"role": "user", "content": f"Analyze the following article for risks:\n\n{body[:2000]}"}  # Truncate to 2000 characters for OpenAI API

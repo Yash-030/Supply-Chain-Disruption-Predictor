@@ -1,0 +1,25 @@
+Month,Warehouse Capacity,Monthly Incoming,Monthly Outgoing,Risk Analysis,Sentiment
+January 2023,8518,8656,10966,High,Neutral
+February 2023,10765,5624,1231,Low,Negative
+March 2023,12149,9269,2335,Low,Negative
+April 2023,11471,7546,1358,Low,Negative
+May 2023,13515,11570,7229,Medium,Negative
+June 2023,11112,1427,9875,High,Neutral
+July 2023,8252,1735,3594,Medium,Positive
+August 2023,13653,8701,3637,High,Positive
+September 2023,8113,2348,9935,High,Neutral
+October 2023,12412,11383,5536,High,Negative
+November 2023,9256,4091,2845,Medium,Positive
+December 2023,8432,5225,9829,Low,Positive
+January 2024,9587,7417,10453,Medium,Positive
+February 2024,13826,4952,1345,Low,Positive
+March 2024,9116,6190,2317,Low,Positive
+April 2024,13668,7009,9824,High,Negative
+May 2024,11305,10558,1752,Low,Neutral
+June 2024,14837,3502,3384,High,Positive
+July 2024,12370,6197,9224,Low,Negative
+August 2024,9265,11224,10680,High,Neutral
+September 2024,8402,8655,8940,High,Positive
+October 2024,8252,6047,7453,Low,Neutral
+November 2024,8740,10437,6041,Low,Positive
+December 2024,9034,5351,7496,Low,Neutral

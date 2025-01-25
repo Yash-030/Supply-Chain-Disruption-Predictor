@@ -1,0 +1,18 @@
+Month,Action,Reason
+Jan-23,MONITOR,High utilization (1.02) with High risk
+Mar-23,SELL,"High utilization (0.76), Low risk, Negative sentiment"
+May-23,SELL,"High utilization (0.86), Medium risk, Negative sentiment"
+Jun-23,MONITOR,High utilization (0.13) with High risk
+Jul-23,BUY,"Low utilization (0.21), consider buying semiconductor components"
+Aug-23,MONITOR,High utilization (0.64) with High risk
+Sep-23,MONITOR,High utilization (0.29) with High risk
+Oct-23,SELL,"High utilization (0.92), High risk, Negative sentiment"
+Jan-24,MONITOR,High utilization (0.77) with Medium risk
+Feb-24,BUY,"Low utilization (0.36), consider buying semiconductor components"
+Apr-24,SELL,"High utilization (0.51), High risk, Negative sentiment"
+May-24,MONITOR,High utilization (0.93) with Low risk
+Jun-24,MONITOR,High utilization (0.24) with High risk
+Aug-24,MONITOR,High utilization (1.21) with High risk
+Sep-24,MONITOR,High utilization (1.03) with High risk
+Oct-24,MONITOR,High utilization (0.73) with Low risk
+Nov-24,MONITOR,High utilization (1.19) with Low risk

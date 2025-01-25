@@ -79,4 +79,31 @@ The script is particularly effective in analyzing risks within semiconductor sup
 - **Cybersecurity Threats**: Increasing vulnerability of supply chain systems to cyberattacks.
 
 ---
+## Milestone-3
+## Semiconductor Supply Chain Analysis
 
+The program, **warehouse.py**, analyzes semiconductor supply chain data to generate actionable alerts based on utilization rates, risk analysis, and sentiment analysis. It assists in making proactive decisions for supply chain management by categorizing actions into **SELL**, **BUY**, and **MONITOR** based on specific conditions.
+
+### Program Workflow
+
+1. **Input Data**:
+   - The program reads data from a CSV file named `semiconductor_supply_chain_data_updated.csv`.
+   - Each row includes information such as monthly incoming stock, warehouse capacity, risk analysis levels, and sentiment scores.
+
+2. **Calculations**:
+   - **Utilization Rate**: Calculated as `Monthly Incoming / Warehouse Capacity`.
+   - Thresholds are defined as follows:
+     - **High utilization**: >70%
+     - **Low utilization**: <40%
+   - Alerts are generated based on utilization, risk levels, and sentiment.
+
+3. **Alert Generation**:
+   - **SELL**: Triggered if utilization is high, risk is high, and sentiment is negative.
+   - **MONITOR**: Triggered for high utilization but neutral or positive sentiment.
+   - **BUY**: Triggered if utilization is very low (<40%).
+
+4. **Output**:
+   - Alerts are displayed in the terminal for immediate review.
+   - Alerts are saved to a new CSV file named `supply_chain_alerts.csv` for documentation or further analysis.
+
+---

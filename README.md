@@ -107,3 +107,55 @@ The program, **warehouse.py**, analyzes semiconductor supply chain data to gener
    - Alerts are saved to a new CSV file named `supply_chain_alerts.csv` for documentation or further analysis.
 
 ---
+Certainly! Here's the focused explanation about the **email alerting** feature and the working of the code in **Milestone-4**:
+
+---
+
+### **Milestone-4**  
+**Warehouse Alert System with Email Notification**
+
+The program, `email_alert.py`, analyzes semiconductor supply chain data and generates alerts based on the current utilization, risk levels, and sentiment of the supply chain. It helps stakeholders take quick action (such as buying, selling, or monitoring) to avoid potential disruptions and optimize inventory management.
+
+---
+
+### **Program Workflow**
+
+**Input Data:**
+- The program reads data from a CSV file (`semiconductor_supply_chain_data_updated.csv`).
+- The data includes:
+  - Monthly incoming stock.
+  - Warehouse capacity.
+  - Risk analysis levels (Low, Medium, High).
+  - Sentiment analysis (Positive, Neutral, Negative).
+  - 
+### **Email Alerting Process**
+
+1. **Email Notification**:
+   - After generating the alerts, the system identifies the **most recent month** in the data.
+   - Alerts related to this **latest month** are prepared for email delivery.
+
+2. **Email Content**:
+   - The email contains:
+     - The **Month** of the alert.
+     - The **Action** to be taken (SELL, MONITOR, BUY).
+     - The **Reason** for the action (e.g., high utilization, risk, and sentiment).
+
+3. **Sending the Email**:
+   - The email is sent via Gmail’s SMTP server.
+   - The program connects to the server, logs in with the sender’s credentials, and sends the email to the recipient.
+   - The email includes all the details of the recent alerts, providing stakeholders with a clear understanding of what actions need to be taken in response to the supply chain status.
+
+4. **Outcome**:
+   - The alerts are displayed in the terminal for immediate review.
+   - The most recent alerts are sent to the recipient’s email for proactive supply chain management.
+
+---
+
+### **Key Features of Email Alerting in Milestone-4:**
+- **Real-Time Alerts**: Stakeholders receive immediate email notifications with the most recent supply chain alerts.
+- **Automated Communication**: No manual intervention is needed for alert dissemination; the system automatically sends the email with the most up-to-date information.
+- **Actionable Insights**: Each email contains specific actions (SELL, MONITOR, BUY) based on the data, helping stakeholders make informed decisions quickly.
+
+---
+
+

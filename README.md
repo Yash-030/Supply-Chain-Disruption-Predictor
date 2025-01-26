@@ -149,7 +149,7 @@ The program, `email_alert.py`, analyzes semiconductor supply chain data and gene
    - The alerts are displayed in the terminal for immediate review.
    - The most recent alerts are sent to the recipient’s email for proactive supply chain management.
    - The received email will looks like this.
-<img width="705" alt="Example_Email" src="https://github.com/user-attachments/assets/4868b8e7-8ebc-45c3-af4b-32fb240ef5ef" />
+<img width="730" alt="Example_Email" src="https://github.com/user-attachments/assets/4868b8e7-8ebc-45c3-af4b-32fb240ef5ef" />
 
 ---
 

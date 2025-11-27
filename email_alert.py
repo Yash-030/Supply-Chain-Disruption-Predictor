@@ -82,9 +82,9 @@ if __name__ == "__main__":
         recent_alerts = get_most_recent_month_alerts(alerts, data)
 
         # Prepare email details
-        sender_email = "yashu110704@gmail.com"
-        sender_password = "ckoi bhqi vmoh kbcm"
-        recipient_email = "puchakayalayashu@gmail.com"
+        sender_email = ""
+        sender_password = ""
+        recipient_email = ""
 
         # Send recent alerts via email
         if recent_alerts:
@@ -100,3 +100,4 @@ if __name__ == "__main__":
             )
         else:
             print("No alerts generated for the recent month, no email sent.")
+

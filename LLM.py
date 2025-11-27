@@ -3,7 +3,7 @@ from transformers import pipeline
 import json
 
 # OpenAI API key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 openai.api_key = OPENAI_API_KEY
 
 # Initializing sentiment analysis pipeline
@@ -68,3 +68,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
